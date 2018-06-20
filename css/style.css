@@ -1,0 +1,973 @@
+#content{
+    width= 90%;
+    max-width= 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+
+@media screen and (max-width=800px){
+    #ImageTitolPI{
+    
+    }
+}
+
+/*Background All*/
+body{
+background-image: url('../img/ImBackgroundIndex.jpg');
+}
+                                /*Index Page*/
+
+                                /*Home Title*/
+
+/*TitleFieldset*/
+#TitleFieldset{
+    background-image: url("../img/ImFSTitol1.jpg");
+    background-size: 100%;
+    position: relative;
+    margin-top: -25px;
+    top: 80px;
+    margin-left: -50px;
+    margin-right: -50px;
+}
+
+/*TitleText*/
+#TitleText{
+    color: white;
+    text-align: center;
+    @font-face{
+        font-family: ('TitolT');
+        src: local("TText1"),
+        local ("T-Text1"),
+        url("Fonts de text/Text1.ttf");
+        font-weight: bold;
+        
+    }
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    }
+
+#TitleText2{
+    color: white;
+    text-align: center;
+    position: relative;
+    right: 10px;
+}
+
+
+
+
+/*TitleImage*/
+#ImTitolPI{
+    height: 20%;
+    width: 15%;
+    margin-left: 42%;
+    border-radius: 50px;
+}
+
+                                /*Main Menu Box*/
+
+
+        /*Fieldset Commentary Box*/
+
+#BoxFieldset{
+    background-color: black;
+    position: relative;
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-right: 400px;
+}
+
+
+
+
+        /*Fieldset Text*/
+
+#TextBox{
+    position: relative;
+    font-size: 28px;
+    color: white;
+}
+
+#nametext{
+    font-size:22px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#textpost{
+    font-size: 22px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+        /*Send Button*/
+
+#CSendButton{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 18px;
+    background-color: gray;
+    
+}
+
+        /*Comment Box*/
+
+#CommentBox{
+    margin-top: 20px;
+}
+
+        /*Text Boxes (inputs)*/
+
+
+
+#username{
+    font-size: 18px;
+    padding: 7px 100px;
+}
+
+#post{
+    font-size: 18px;
+    padding: 60px 300px;
+}
+
+
+        /*Page News Box*/
+#NewsBox{
+    background-image: url("../img/textures/texture1.jpg");
+    position: relative;
+    margin-right: 1500px;
+    top: -440px;
+    
+}
+
+#NewsTitle{
+    margin-top: 5px;
+}
+
+
+#post1{
+    position: relative;
+    margin-top: -1px;
+}
+
+#fdtpost1{
+    background-color: black;
+    position: relative;
+    margin-top: -10px;
+}
+
+
+#post1letter{
+    position: relative;
+    margin-top: 1px;
+}
+
+
+
+
+        /*FanArts Box*/
+#FanArtsBox{
+    background-image: url("../img/textures/texture1.jpg");
+    position: relative;
+    margin-left: 1500px;
+    top: -615px
+}
+
+#FanArtsTitle{
+    position: relative;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+                                        /*My Projects Page*/
+
+        /*Subject Fieldset*/
+
+#DFSubj{
+    position: relative;
+    top: 70px;
+    margin-left: 300px;
+    margin-right: 500px;
+    height: 500px;
+    background-size: 100%;
+}
+
+#FSubj{
+    background-image: url(../img/ImProjectsFt.jpg);
+    height: 100%;
+    width: 100%;
+}
+
+#TitolPrj{
+    color: white;
+    position: relative;
+    font-size: 40px;
+    top: 70px;
+    left: 100px;
+    transition: 2s;
+}
+
+#TitolPrj:hover{
+    color: red;
+    transform: translateX(300px);
+    text-decoration: underline red;
+    }
+
+
+/*2D Animation*/
+
+#FA2D{
+    position: relative;
+    top: 10px;
+    transition: 2s;
+}
+
+#FA2D:hover{
+    border-color: deepskyblue;
+}
+
+#A2D{
+ color: white;
+ position: relative;
+ text-decoration: none;
+}
+
+#fletchaA2D{
+    position: relative;
+    top: 3px;
+}
+
+#itA2D{
+    transition: 2s;
+}
+
+#itA2D:hover{
+    transform: translateX(100px);
+}
+
+
+/*2D Animation html*/
+
+#TitleA2D{
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    font-size:30px;
+    transition: 2s;
+}
+
+#TitleA2D:hover{
+    color: deepskyblue;
+}
+
+
+
+#FieldstA2D{
+    background-image: url(../img/ImProjectsFt.jpg);
+    background-size: 100%;
+    position: relative;
+    top: 150px;
+    margin-left: 95px;
+    margin-right: 300px;
+    transition: 2s;
+}
+
+#FieldstA2D:hover{
+    border-color: deepskyblue;
+}
+
+
+
+#Title2A2D{
+    color: aliceblue;
+}
+
+
+#videoA2D{
+    margin-left: 23%;
+}
+
+
+#Title3A2D{
+    color: aliceblue;
+}
+
+
+#Fieldst2A2D{
+    transition: 2s;
+}
+
+#Fieldst2A2D:hover{
+    border-color: deepskyblue;
+}
+
+
+#FieldstRtscp{
+    background-image: url(../img/ImProjectsFt.jpg);
+    background-size: 100%;
+    position: relative;
+    top: 200px;
+    margin-left: 95px;
+    margin-right: 300px;
+    transition: 2s;
+}
+
+
+#video2A2D{
+    margin-left: 25%;
+}
+
+
+
+
+
+/*3D Animation*/
+
+#DA3D{
+    position: relative;
+    top: 20px;
+}
+
+#A3D{
+ color: white;
+ position: relative;
+ text-decoration: none;
+}
+
+#fletchaA3D{
+    position: relative;
+    top: 3px;
+}
+
+#itA3D{
+    transition: 2s;
+}
+
+#itA3D:hover{
+    transform: translateX(100px);
+}
+
+#FA3D{
+    transition: 2s;
+}
+
+#FA3D:hover{
+    border-color: orangered;
+}
+
+      /*3D Animation html*/
+
+#TitleA3D{
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    font-size:30px;
+    transition: 2s;
+}
+
+#TitleA3D:hover{
+    color: orangered;
+}
+
+#Title2A3D{
+    color: white;
+}
+
+#FieldstA3D{
+    background-image: url(../img/ImProjectsFt.jpg);
+    background-size: 100%;
+    position: relative;
+    top: 150px;
+    margin-left: 95px;
+    margin-right: 300px;
+    transition: 2s;
+}
+
+#FieldstA3D:hover{
+    border-color: orangered;
+}
+
+
+#videoA3D{
+    margin-left: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+/*3D Modeling*/
+
+
+#DM3D{
+    position: relative;
+    top: 30px;
+}
+
+#M3D{
+ color: white;
+ position: relative;
+ text-decoration: none;
+}
+
+#fletchaM3D{
+    position: relative;
+    top: 3px;
+}
+
+#itM3D{
+    transition: 2s;
+}
+
+#itM3D:hover{
+    transform: translateX(100px);
+}
+
+#FM3D{
+    transition: 2s;
+}
+
+#FM3D:hover{
+    border-color: springgreen;
+}
+
+
+/*3D Modeling html*/
+
+#TitleM3D{
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    font-size:30px;
+    transition: 2s;
+}
+
+#TitleM3D:hover{
+    color: springgreen;
+}
+
+#TitleM3D2{
+    color: white;
+}
+
+#FieldstM3D{
+    background-image: url(../img/ImProjectsFt.jpg);
+    background-size: 100%;
+    position: relative;
+    top: 150px;
+    margin-left: 95px;
+    margin-right: 300px;
+}
+
+#fdstMuseum{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: 2s;
+}
+
+#fdstMuseum:hover{
+    border-color: springgreen;
+}
+
+#TitleMuseum{
+    color: white;
+}
+
+ 
+#fdstMap{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: 2s;
+}
+
+
+#fdstMap:hover{
+    border-color: springgreen;
+}
+
+#TitleMap{
+    color: white;
+}
+
+#mapImage{
+    position: relative;
+    left: 450px;
+    transition: 2s;
+}
+
+#mapImage:hover{
+    transform: scale(1.3);
+}
+
+
+
+
+
+
+
+/*Ilumination*/
+
+#DIlu{
+    position: relative;
+    top: 40px;
+}
+
+#Ilumin{
+ color: white;
+ position: relative;
+ text-decoration: none;
+}
+
+#fletchaIlu{
+    position: relative;
+    top: 3px;
+}
+
+#itIlu{
+    transition: 2s;
+}
+
+#itIlu:hover{
+    transform: translateX(100px);
+}
+
+#FIlu{
+    transition: 2s;
+}
+
+#FIlu:hover{
+    border-color: goldenrod;
+}
+
+     /*Ilumination html*/
+
+
+#TitleIlumin{
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    font-size:30px;
+    transition: 2s;
+}
+
+#TitleIlumin:hover{
+    color: goldenrod;
+}
+
+#TitleIlumin2{
+    color:white;
+}
+
+
+#FieldstIlumin{
+    background-image: url(../img/ImProjectsFt.jpg);
+    background-size: 100%;
+    position: relative;
+    top: 150px;
+    margin-left: 95px;
+    margin-right: 300px;
+}
+
+
+  /*HDRI*/
+
+#fdstHDRI{
+    position: relative;
+    margin-top: 20px;
+    transition: 2s;
+}
+
+#fdstHDRI:hover{
+    border-color: goldenrod;
+}
+
+#TitleIHDRI{
+    color: white;
+}
+
+#IHF1{
+    position: relative;
+    left: 30px;
+    transition: 2s;
+}
+
+#IHF1:hover{
+    transform: scale(1.2);
+}
+
+#IHF2{
+    position: relative;
+    left: 150px;
+    bottom: 50px;
+}
+
+#IHF3{
+    position: relative;
+    left: 250px;
+    bottom: 50px;
+}
+
+#IHF4{
+    position: relative;
+    left: 350px;
+    bottom: 50px;
+}
+
+
+
+
+
+    /*Implicit*/
+
+#fdstImp{
+    position: relative;
+    margin-top: 20px;
+    transition: 2s;
+}
+
+#fdstImp:hover{
+    border-color: goldenrod;
+}
+
+#TitleIImp{
+    color: white;
+}
+
+#IIF1{
+    position: relative;
+    left: 30px;
+    transition: 2s;
+}
+
+#IIF1:hover{
+    transform: scale(1.2);
+}
+
+
+#IIF2{
+    position: relative;
+    left: 200px;
+    bottom: 25px;
+}
+
+#IIF3{
+    position: relative;
+    left: 400px;
+    bottom: 25px;
+}
+
+
+
+
+
+/*Interiors*/
+
+#fdstInt{
+    position: relative;
+    margin-top: 20px;
+    transition: 2s;
+}
+
+#fdstInt:hover{
+    border-color: goldenrod;
+}
+
+#IInF1{
+    position: relative;
+    left: 30px;
+    transition: 2s;
+}
+
+#IInF1:hover{
+    transform: scale(1.2);
+}
+
+
+#IInF2{
+    position: relative;
+    left: 200px;
+    transition: 2s;
+}
+
+#IInF2:hover{
+    transform: scale(1.2);
+}
+
+#IInF3{
+    position: relative;
+    left: 400px;
+    bottom: 25px;
+}
+
+
+
+
+
+
+/*Transmision Ilumination*/
+
+#fdstTrn{
+    position: relative;
+    margin-top: 20px;
+    transition: 2s;
+}
+
+#fdstTrn:hover{
+    border-color: goldenrod;
+}
+
+#TitleITrn{
+    color: white;
+}
+
+#ITF1{
+    position: relative;
+    left: 30px;
+    transition: 2s;
+}
+
+#ITF1:hover{
+    transform: scale(1.2);
+}
+
+#ITF2{
+    position: relative;
+    left: 50px;
+    bottom: 25px;
+}
+
+#ITF3{
+    position: relative;
+    left: 70px;
+    bottom: 25px;
+}
+
+#ITF4{
+    position: relative;
+    left: 90px;
+    bottom: 25px;
+}
+
+#ITF5{
+    position: relative;
+    left: 110px;
+    bottom: 25px;
+}
+
+#ITF6{
+    position: relative;
+    left: 130px;
+    bottom: 25px;
+}
+
+
+
+
+
+/*Volumetric Ilumination*/
+
+
+#fdstVol{
+    position: relative;
+    margin-top: 20px;
+    transition: 2s;
+}
+
+#fdstVol:hover{
+    border-color: goldenrod;
+}
+
+#TitleIVol{
+    color:white;
+}
+
+#IVF1{
+    position: relative;
+    left: 30px;
+    transition: 2s;
+}
+
+#IVF1:hover{
+    transform: scale(1.2);
+}
+
+#IVF2{
+    position: relative;
+    left: 200px;
+    transition: 2s;
+}
+
+#IVF2:hover{
+    transform: scale(1.2);
+}
+
+
+#IVF3{
+    position: relative;
+    left: 400px;
+    transition: 2s;
+}
+
+#IVF3:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                /*Contact Me Page*/
+
+
+/*Contact me Fieldset*/
+
+
+#fdstContact{
+    background-image: url(../img/ImProjectsFt.jpg);
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 30%;
+    bottom: 50%;
+    transition: 1s;
+}
+
+#fdstContact:hover{
+    border-color: red;
+}
+
+#TitleContact{
+    color: white;
+    font-size: 25px;
+    transition: 1s;
+}
+
+#TitleContact:hover{
+    color: red;
+}
+
+#fdstDades{
+    position: relative;
+    width: 390px;
+    height: 220px;
+}
+
+#MailT{
+    color: white;
+}
+
+#PhoneT{
+  color: white;  
+}
+
+#InstagramT{
+    color: white;
+}
+
+
+#Mail{
+    color: white;
+    position: relative;
+    left: 200px;
+    top: -40px;
+}
+
+#Phone{
+        color: white;
+    position: relative;
+    left: 200px;
+    top: -40px;
+}
+
+#Insta{
+    color: white;
+    position: relative;
+    left: 200px;
+    top: -40px;
+}
+
+
+
+
+
+                        /*Buttons*/
+
+        /*Pages Buttons*/ 
+
+#HomeButton{
+    position: relative;
+    top: 15px;
+    margin-left: 40px;
+    padding: 10px 20px;
+    border-radius: 18px;
+    background-color: gray;
+    text-decoration: none;
+}
+
+#ProjectsButton{
+    position: relative;
+    top: 15px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 18px;
+    background-color: gray;
+    text-decoration: none;
+}
+
+#AboutMeButton{
+    position: relative;
+    top: 15px;
+    margin-left: 25px;
+    padding: 10px 20px;
+    border-radius: 18px;
+    background-color: gray;
+    text-decoration: none;
+}
+
+#ContactButton{
+    position: relative;
+    top: 15px;
+    margin-top: 10px;
+    margin-left: 25px;
+    padding: 10px 20px;
+    border-radius: 18px;
+    background-color: gray;
+    text-decoration: none;
+}
+
